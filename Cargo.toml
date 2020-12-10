@@ -1,0 +1,21 @@
+[package]
+name = "Rustlinks"
+version = "0.1.0"
+authors = ["J7314b <dixinlily@hotmail.com>"]
+edition = "2018"
+description = "Personal tiny application for link management with rust and webview"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+web-view = { version = "0.7" }
+
+[package.metadata.bundle]
+identifier = "io.github.songtech.rustlinks"
+icon = ["icon.png"]
+category = "Utility"
+short_description = "Personal application for link management"
+long_description = """
+An application that hosts all of my remote classes.
+Used to prevent entering class late from not knowing
+about the link to the class meeting.
+"""
