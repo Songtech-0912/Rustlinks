@@ -13,6 +13,8 @@ Rustlinks is an app that does one (maybe two) things well:
 
 Really, that's it. It's also super lightweight and fast, and has a well-designed GUI too. 
 
+*Note that the links here aren't actually real links, they are here only for demonstration purposes and link to a placeholder webpage*
+
 ## Getting Started
 
 To use Rustlinks, you must have `cargo` (the Rust build system installed). Rustlinks is compiled from very simple source code like this:
